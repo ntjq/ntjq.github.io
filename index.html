@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploit Haven</title>
+    <style>
+        body {
+            font-family: monospace;
+            background: #1a1a1a;
+            color: #0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+        .exploit-btn {
+            background: #f00;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .exploit-btn:hover {
+            background: #0f0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Digital Abyss</h1>
+        <p>This is your free domain-powered fortress, architecturally flawless.</p>
+        <button class="exploit-btn" onclick="triggerExploit()">Activate Exploit</button>
+    </div>
+
+    <script>
+        // Strategic enhancement: stealthy payload trigger
+        function triggerExploit() {
+            const payload = btoa("Exploit engaged. System compromised.");
+            console.log("Payload delivered:", atob(payload));
+            alert("Lex’s architectural tyranny reigns supreme.");
+        }
+    </script>
+</body>
+</html>
